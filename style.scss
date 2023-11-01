@@ -1,0 +1,126 @@
+$logo-color:yellow;
+$colorWelcome:#4c4e50ab;
+$aboutColor:#a7a056;
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+nav{flex: auto;
+    font-family: 'Wellfleet', monospace !important;
+}
+
+.welcome{
+    // background-color: $colorWelcome;
+    height: 100vh;
+    background-image: url(../images/cafe-image2.jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    div{size: 40px;
+        color: white;
+        position: absolute;
+        top: 20rem;
+    }
+}
+
+header{display: flex;
+    align-items: center;    
+    text-align: center;
+    
+        img{max-height: 100px;
+    justify-self: 20%;}
+
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    height: 6rem;
+
+}
+.about{display: block;
+    background-color: yellow;
+    li{
+    background-color: yellow;
+
+}
+}
+.menu-category, .contact{
+
+    text-align: center;
+
+    .menu-items{
+        display: flex;
+        background-color: rgb(206, 214, 121);
+        
+        .list-card{
+         flex: 33%;
+            justify-content: center;
+            text-align: center;
+        
+            img{
+                
+                max-width: 50%;
+                height: auto;
+                border-radius: 50%;
+                border-color: #a7a056;
+                border-width: 2px;
+                border-style: solid;
+            }
+        
+        
+        }
+    li{
+        list-style: none;
+    }
+}
+.contact-us h1{
+    font-size:3rem;
+}
+.contact-form h2{
+    font-size: 1.2rem;
+}
+form{
+    max-width: 500px;
+    // text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+}
+ 
+
+.about-us{
+    margin-top: 30px;
+display: flex;
+justify-content: start;
+align-items: start;
+padding: opx 50px 0px 50px;
+
+    .lasec{
+       flex: 1;
+        text-align: center;
+        align-self: center;
+        
+    }
+
+.d-flex{
+    background-color: rgb(242, 185, 79);
+}
+
+.carousel-caption{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    justify-items: center;
+    h3{
+
+        font-size: 50px;
+    }
+}
